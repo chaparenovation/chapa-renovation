@@ -1,37 +1,26 @@
-name: 🚀 Deploy to Hostinger
-
+name: Deploy to GitHub Pages
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
-
+    branches: [main]
 jobs:
-  build-and-deploy:
-    name: Build & Deploy via FTP
+  deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: ✅ Checkout repository
-        uses: actions/checkout@v4
-
-      - name: ⚙️ Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-
-      - name: 📦 Install dependencies
-        run: npm install
-
-      - name: 🔨 Build production bundle
-        run: npm run build
-
-      - name: 📤 Deploy to Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - run: npm install
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /public_html/
-          dangerous-clean-slate: true
+          path: ./dist
+      - id: deployment
+        uses: actions/deploy-pages@v4          dangerous-clean-slate: true
