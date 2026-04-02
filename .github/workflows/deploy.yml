@@ -23,4 +23,4 @@ jobs:
         with:
           path: ./dist
       - id: deployment
-        uses: actions/deploy-pages@v4          dangerous-clean-slate: true
+        uses: actions/deploy-pages@v4
