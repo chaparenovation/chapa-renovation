@@ -12,10 +12,10 @@ export const content = {
       devis: 'Devis Gratuit',
     },
     hero: {
-      label: '// Fondée en 2004 · Paris, France',
+      label: '// Entreprise Familiale · Fondée en 2004 · Paris',
       title: "L'excellence du bâtiment\nà Paris depuis",
       years: '20 ans',
-      subtitle: 'Artisans certifiés pour votre rénovation haut de gamme. De la menuiserie fine à la domotique intelligente, nous réalisons vos projets avec précision et élégance.',
+      subtitle: "Une famille passionnée et dédiée à l'art de la rénovation. Découvrez notre expertise professionnelle à Paris et ses alentours, transformant vos espaces avec engagement et qualité.",
       cta_primary: 'Demander un Devis',
       cta_secondary: 'Voir nos Réalisations',
       badge: 'Artisans Certifiés',
@@ -64,9 +64,9 @@ export const content = {
     },
     expertise: {
       label: '// À Propos',
-      title: '20 Ans au Cœur\nde Paris',
-      desc1: 'Fondée en 2004 dans le 11ème arrondissement, CHAPA RÉNOVATION s\'est forgé une réputation d\'excellence en alliant le savoir-faire artisanal traditionnel aux technologies modernes de construction.',
-      desc2: 'Chaque chantier est une œuvre. Chaque détail est pensé. Notre équipe de 20 artisans certifiés intervient dans toute l\'Île-de-France avec la même exigence de qualité.',
+      title: "Une Famille\nDédiée à l'Excellence",
+      desc1: "Chapa Rénovation est une entreprise familiale fondée en 2004. Notre histoire est celle d'une famille dévouée au secteur du bâtiment, apportant un savoir-faire unique à Paris et en Île-de-France.",
+      desc2: "Nous allions proximité et professionnalisme pour garantir un suivi personnalisé de vos projets. Forts de 20 ans d'expérience, nous mettons notre coeur et notre expertise au service de votre habitat.",
       cta: 'Notre Histoire',
       stats: [
         { nb: '20', unit: 'ans', label: 'D\'expérience' },
@@ -103,7 +103,7 @@ export const content = {
       },
     },
     footer: {
-      tagline: 'L\'excellence artisanale à Paris depuis 2004.',
+      tagline: "L'excellence familiale à Paris depuis 2004.",
       rights: '© 2024 CHAPA RÉNOVATION · Tous droits réservés · Paris, France',
     },
     cta_call: 'Appeler maintenant',
@@ -118,10 +118,10 @@ export const content = {
       devis: 'Free Quote',
     },
     hero: {
-      label: '// Founded 2004 · Paris, France',
+      label: '// Family Business · Founded 2004 · Paris',
       title: 'Building excellence\nin Paris for',
       years: '20 years',
-      subtitle: 'Certified craftsmen for your premium renovation. From fine joinery to smart home automation, we deliver your projects with precision and elegance.',
+      subtitle: 'A family passionately dedicated to the renovation craft. Discover our professional expertise in Paris and its surroundings, transforming spaces with commitment and quality.',
       cta_primary: 'Request a Quote',
       cta_secondary: 'View Our Work',
       badge: 'Certified Craftsmen',
@@ -170,9 +170,9 @@ export const content = {
     },
     expertise: {
       label: '// About',
-      title: '20 Years at the Heart\nof Paris',
-      desc1: 'Founded in 2004 in the 11th arrondissement, CHAPA RÉNOVATION has built a reputation for excellence by combining traditional artisanal know-how with modern construction technologies.',
-      desc2: 'Every project is a work of art. Every detail is considered. Our team of 20 certified craftsmen operates throughout Île-de-France with the same commitment to quality.',
+      title: 'A Family\nDedicated to Excellence',
+      desc1: 'Chapa Rénovation is a family-owned business founded in 2004. Our history is built on the passion of a family entirely dedicated to the renovation sector in Paris and its surroundings.',
+      desc2: 'We combine personal touch with high-level professionalism to ensure your project receives the attention it deserves. With 20 years of experience, we are your trusted family of experts.',
       cta: 'Our Story',
       stats: [
         { nb: '20', unit: 'yrs', label: 'Of experience' },
@@ -209,7 +209,7 @@ export const content = {
       },
     },
     footer: {
-      tagline: 'Artisanal excellence in Paris since 2004.',
+      tagline: 'Family artisanal excellence in Paris since 2004.',
       rights: '© 2024 CHAPA RÉNOVATION · All rights reserved · Paris, France',
     },
     cta_call: 'Call now',
@@ -224,10 +224,10 @@ export const content = {
       devis: 'Presupuesto',
     },
     hero: {
-      label: '// Fundada en 2004 · París, Francia',
+      label: '// Empresa Familiar · Fundada en 2004 · París',
       title: 'La excelencia en\nconstrucción en París desde',
       years: '20 años',
-      subtitle: 'Artesanos certificados para su renovación de alta gama. Desde carpintería fina hasta domótica inteligente, realizamos sus proyectos con precisión y elegancia.',
+      subtitle: 'Somos una familia dedicada apasionadamente al sector de la renovación. Conozca nuestra experiencia profesional en París y sus alrededores, transformando hogares con compromiso y calidad.',
       cta_primary: 'Solicitar Presupuesto',
       cta_secondary: 'Ver Nuestros Proyectos',
       badge: 'Artesanos Certificados',
@@ -276,9 +276,9 @@ export const content = {
     },
     expertise: {
       label: '// Acerca de',
-      title: '20 Años en el Corazón\nde París',
-      desc1: 'Fundada en 2004 en el distrito 11, CHAPA RÉNOVATION se ha forjado una reputación de excelencia combinando el conocimiento artesanal tradicional con las tecnologías modernas de construcción.',
-      desc2: 'Cada obra es un trabajo de arte. Cada detalle está pensado. Nuestro equipo de 20 artesanos certificados opera en toda la Île-de-France con la misma exigencia de calidad.',
+      title: 'Una Familia\nDedicada a la Excelencia',
+      desc1: 'Chapa Rénovation es una empresa familiar fundada en 2004. Nuestra historia nace de la pasión por el trabajo bien hecho y el compromiso de una familia dedicada por completo al sector de las reformas en París y sus alrededores.',
+      desc2: 'Ofrecemos un trato cercano y profesional, garantizando que cada proyecto reciba la atención personalizada que solo una familia comprometida puede brindar. Con más de 20 años de experiencia, somos sus expertos de confianza.',
       cta: 'Nuestra Historia',
       stats: [
         { nb: '20', unit: 'años', label: 'De experiencia' },
@@ -301,7 +301,7 @@ export const content = {
         name: 'Nombre completo',
         email: 'Correo electrónico',
         phone: 'Teléfono',
-        service: 'Tipo de servicio',
+        service: 'Type de service',
         message: 'Describa su proyecto...',
         submit: 'Enviar Solicitud',
       },
@@ -315,7 +315,7 @@ export const content = {
       },
     },
     footer: {
-      tagline: 'Excelencia artesanal en París desde 2004.',
+      tagline: 'Excelencia familiar en París desde 2004.',
       rights: '© 2024 CHAPA RÉNOVATION · Todos los derechos reservados · París, Francia',
     },
     cta_call: 'Llamar ahora',

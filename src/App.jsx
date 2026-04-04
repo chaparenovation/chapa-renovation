@@ -285,26 +285,24 @@ function Hero({ t }) {
 // ══════════════════════════════════════
 function Ticker({ t }) {
   const items = [
-    '✦ Menuiserie',
-    '✦ Peinture',
-    '✦ Électricité',
-    '✦ Plomberie',
-    '✦ Domotique',
-    '✦ Paris',
-    '✦ Île-de-France',
-    '✦ 20 ans',
-    '✦ Excellence',
+    '✦ Entreprise Familiale',
+    '✦ Expertise Paris & Banlieue',
     '✦ Artisans Certifiés',
     '✦ Menuiserie',
     '✦ Peinture',
     '✦ Électricité',
     '✦ Plomberie',
     '✦ Domotique',
-    '✦ Paris',
-    '✦ Île-de-France',
-    '✦ 20 ans',
-    '✦ Excellence',
+    '✦ 20 ans d\'Excellence',
+    '✦ Entreprise Familiale',
+    '✦ Expertise Paris & Banlieue',
     '✦ Artisans Certifiés',
+    '✦ Menuiserie',
+    '✦ Peinture',
+    '✦ Électricité',
+    '✦ Plomberie',
+    '✦ Domotique',
+    '✦ 20 ans d\'Excellence',
   ];
 
   return (
